@@ -118,3 +118,24 @@ p {
 .card__texto {
     text-align: justify;
 }
+
+.curso {
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.curso__texto {
+    width: 25%;
+    text-align: justify;
+}
+
+.curso__texto p:last-child {
+    margin-bottom: 0;
+}
+
+.curso__icono {
+    color:#F34701;
+    padding-bottom: 2rem;
+}
