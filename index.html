@@ -5,21 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tp grupal</title>
-    <!--titulo de la pagina -->
-    <script src="https://kit.fontawesome.com/fc2062abc7.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!--link al css  -->
+    <title>CompuGurú</title> <!--titulo de la pagina -->
+    <script src="https://kit.fontawesome.com/fc2062abc7.js" crossorigin="anonymous"></script> <!--link a fontawesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"> <!--link a googlefonts-->
+    <link rel="stylesheet" href="css/reset.css"> <!--link al css reset -->
+    <link rel="stylesheet" href="css/style.css"> <!--link al css  -->
     <link rel="icon" href="Imagenes/favicon.ico"> <!-- logo de la pagina -->
-    <script src="js/app.js"></script>
-    <!--link a javaScript  -->
+    <script src="js/app.js"></script> <!--link a javaScript  -->  
 </head>
 
 <!-- Cuerpo de la página -->
 
 <body>
+    <!-- Barra menu -->
     <header class="head container">
         <img class="head__logo" src="Imagenes/Logo.svg" alt="Logo de CompuGurú">
         <nav class="head__navegacion">
@@ -34,8 +32,9 @@
         </nav>
     </header>
 
-    <!-- Titulo y subtitulos principales de la pagina -->
+    <!-- Contenido principal -->
     <main>
+        <!-- Seccion hero -->
         <section class="hero container">
             <div class="hero__texto">
                 <h1>Elegí la compu ideal para vos.</h1>
@@ -45,60 +44,89 @@
                 <a href="#tipos" class="boton">Ver todo</a>
             </div>
         </section>
-         <!-- Cuadro de tipos de computadoras -->
+        <!-- Seccion cards con tipos de compu -->
         <section class="tiposCompus container" id="tipos">
             <h2>¿Qué equipo es para vos?</h2>
             <ul class="cardCompus">
                 <li class="card">
                     <i class="fa-solid fa-house fa-2xl"></i>
                     <h3>Básica/ Multimedia</h3>
-                    <p class="card__texto">Si estás buscando armar una compu para uso familiar, que sirva tanto para que los chicos hagan la tarea, como para mirar las pelis y series que más te gusten, mirá las opciones que te recomendamos para este uso, con distintos presupuestos.</p>
+                    <p class="card__texto">Si estás buscando armar una compu para uso familiar, que sirva tanto para que
+                        los chicos hagan la tarea, como para mirar las pelis y series que más te gusten, mirá las
+                        opciones que te recomendamos para este uso, con distintos presupuestos.</p>
                     <a href="#" class="boton">Quiero este!</a>
                 </li>
                 <li class="card">
                     <i class="fa-solid fa-gamepad fa-2xl"></i>
                     <h3>Gaming</h3>
-                    <p class="card__texto">Sos un fanático del gaming? Mirá las opciones que te brindamos para armar una compu ideal para vos, con diferentes tipos de presupuesto, te mostramos que componentes son indispensables para que puedas jugar sin parar!</p>
+                    <p class="card__texto">Sos un fanático del gaming? Mirá las opciones que te brindamos para armar una
+                        compu ideal para vos, con diferentes tipos de presupuesto, te mostramos que componentes son
+                        indispensables para que puedas jugar sin parar!</p>
                     <a href="#" class="boton">Quiero este!</a>
                 </li>
                 <li class="card">
                     <i class="fa-solid fa-headset fa-2xl"></i>
                     <h3>Streaming</h3>
-                    <p class="card__texto">Si te gusta compartir transmisiones en vivo, y estar todo el tiempo live, esta sección es para vos. Te vamos a guiar a través de los componentes que mejor se adaptan al uso que vos le querés dar. Fijate que presupuesto te conviene.</p>
+                    <p class="card__texto">Si te gusta compartir transmisiones en vivo, y estar todo el tiempo live,
+                        esta sección es para vos. Te vamos a guiar a través de los componentes que mejor se adaptan al
+                        uso que vos le querés dar. Fijate que presupuesto te conviene.</p>
                     <a href="#" class="boton">Quiero este!</a>
                 </li>
                 <li class="card">
                     <i class="fa-solid fa-photo-film fa-2xl"></i>
                     <h3>Edición/ Diseño</h3>
-                    <p class="card__texto">Si tu trabajo está relacionado con la fotografía, la edición de videos, la arquitectura o el diseño gráfico, te brindamos algunas opciones de los mejores componentes que van a ser la clave para que puedas trabajar sin problemas.
+                    <p class="card__texto">Si tu trabajo está relacionado con la fotografía, la edición de videos, la
+                        arquitectura o el diseño gráfico, te brindamos algunas opciones de los mejores componentes que
+                        van a ser la clave para que puedas trabajar sin problemas.
                     </p>
                     <a href="#" class="boton">Quiero este!</a>
                 </li>
             </ul>
         </section>
+        <!-- Seccion Iframe con Curso de armado de PC -->
         <section class="container">
             <h2>Aprendé a armar tu propia PC</h2>
             <div class="curso">
-                <iframe width="73%" height="450" src="https://www.youtube.com/embed/videoseries?list=PLIQa0LGiOQmUUiI8wxI2He1C6UJpJ6Y1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="73%" height="450"
+                    src="https://www.youtube.com/embed/videoseries?list=PLIQa0LGiOQmUUiI8wxI2He1C6UJpJ6Y1W"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <div class="curso__texto">
                     <i class="curso__icono fa-solid fa-graduation-cap fa-2xl"></i>
-                    <p>Para complementar con las opciones que nosotros brindamos, te dejamos un curso completo para que aprendar a armar un PC paso a paso desde 0.</p>
-                    <p>Vas a poder armar tu PC vos mismo, usando los componentes que hayas elegido, según tus necesidades y presupuesto.</p>
+                    <p>Para complementar con las opciones que nosotros brindamos, te dejamos un curso completo para que
+                        aprendar a armar un PC paso a paso desde 0.</p>
+                    <p>Vas a poder armar tu PC vos mismo, usando los componentes que hayas elegido, según tus
+                        necesidades y presupuesto.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion formulario de contacto -->
+        <section class="container">
+            <h2>¿Tenés dudas? Contactanos</h2>
+            <div class="contacto">
+                <form>
+                    <input type="text" class="input" placeholder="Nombre y Apellido">
+                    <input type="email" class="input" placeholder="Email">
+                    <textarea type="text" class="input textarea" placeholder="Mensaje"></textarea>
+                    <input type="submit" class="contato__boton">
+                </form>
+                <div class="contacto__boxicono">
+                    <i class="contacto__icono fa-solid fa-paper-plane"></i>
                 </div>
             </div>
         </section>
     </main>
-
-    <!-- Cuadro de tipos de computadoras -->
-
-   
-
     <!-- Pie de página, falta agregar mas datos -->
-
-    <footer class="footer">
-        <p>pagina diseñada para CodoACodo </p>
+    <footer class="footer__box">
+        <div class="footer container">
+            <img class="footer__logo" src="Imagenes/Logo.svg" alt="Logo de CompuGurú">
+            <p>Página diseñada para CodoACodo - Octubre 2022 - Grupo XX</p>
+            <div class="footer__redes">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
     </footer>
-
 </body>
-
 </html>
