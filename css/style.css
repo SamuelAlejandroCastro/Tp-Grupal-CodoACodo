@@ -9,6 +9,16 @@ h1 {
     font-size: 58px;
 }
 
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
 p {
     font-size: 14px;
     line-height: 150%;
@@ -71,9 +81,40 @@ p {
 .boton {
     text-align: center;
     display: block;
-    width: 30%;
+    width: 35%;
     box-sizing: border-box;
     padding: 1rem 2rem;
     background-color: #F34701;
     border-radius: 160px; 
+}
+
+.tiposCompus {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.cardCompus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    width: 49%;
+    background: linear-gradient(160deg, rgba(134,47,152,1) 0%, rgba(24,12,50,1) 100%);
+    border-radius: 40px;
+    padding: 3rem;
+}
+
+.card h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card__texto {
+    text-align: justify;
 }
