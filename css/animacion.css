@@ -1,0 +1,72 @@
+.boton_card {
+    justify-content: center;
+    display: flex;
+    width: 35%;
+    padding: 2rem 2rem;
+    background: linear-gradient(160deg, rgb(134, 47, 152) 0%, rgba(24,12,50,1) 100%);
+    border-radius: 160px; 
+    box-shadow: 0 5px 10px #000;
+}
+
+.tiposCompus {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+.cardCompus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.card {
+    position: relative;
+    width: 49%;
+    height: 250px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    background: linear-gradient(160deg, rgb(134, 47, 152) 0%, rgba(24,12,50,1) 100%);
+}
+.card h3 {
+    color: white;
+    margin: 22px;
+}
+
+.card__texto{
+    margin: 5px 50px; 
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: linear-gradient(160deg, rgb(243, 71, 1) 0%, rgba(24,12,50,1) 110%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}

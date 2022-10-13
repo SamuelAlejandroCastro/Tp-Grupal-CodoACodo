@@ -88,37 +88,6 @@ p {
     border-radius: 160px; 
 }
 
-.tiposCompus {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
-
-.cardCompus {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.card {
-    margin-bottom: 2rem;
-    box-sizing: border-box;
-    width: 49%;
-    background: linear-gradient(160deg, rgba(134,47,152,1) 0%, rgba(24,12,50,1) 100%);
-    border-radius: 40px;
-    padding: 3rem;
-}
-
-.card h3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.card__texto {
-    text-align: justify;
-}
-
 .curso {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
