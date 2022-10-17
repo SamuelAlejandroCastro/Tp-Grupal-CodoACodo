@@ -1,176 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CompuGurú</title>
-    <script src="https://kit.fontawesome.com/fc2062abc7.js" crossorigin="anonymous"></script> <!--link a fontawesome-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"> <!--link a googlefonts-->
-    <!-- <link rel="stylesheet" href="css/reset.css"> link al css reset -->
-    <link rel="stylesheet" href="css/style.css"> <!--link al css  -->
-    <link rel="icon" href="Imagenes/favicon.ico"> <!-- logo de la pagina -->
-    <script src="js/app.js"></script> <!--link a javaScript  -->  
+    <title>CompuGurú | PC Streaming</title>
+    <script src="https://kit.fontawesome.com/fc2062abc7.js" crossorigin="anonymous"></script>
+    <!--link a fontawesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <!--link a googlefonts-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--link al css reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--link al css  -->
+    <link rel="icon" href="Imagenes/favicon.ico">
+    <!-- logo de la pagina -->
+    <script src="js/app.js"></script>
+    <!--link a javaScript  -->
 </head>
+
 <body>
-    <header class="head container">
-        <img class="head__logo" src="Imagenes/Logo.svg" alt="Logo de CompuGurú">
+    <header class="head__gamas container">
+        <a class="head__logo" href="index.html"><img src="Imagenes/Logo.svg" alt="Logo de CompuGurú"></a>
         <nav class="head__navegacion">
             <ul>
-                <li class="head__enlace"><a href="#">Multimedia</a></li>
-                <li class="head__enlace"><a href="#">Gaming</a></li>
-                <li class="head__enlace"><a href="#">Streaming</a></li>
-                <li class="head__enlace"><a href="#">Edición</a></li>
-                <li class="head__enlace"><a href="#">Aprendé</a></li>
-                <li class="head__enlace"><a href="#">Contactanos</a></li>
+                <li class="head__enlace"><a href="basica.html">Multimedia</a></li>
+                <li class="head__enlace"><a href="gaming.html">Gaming</a></li>
+                <li class="head__enlace enlace__seleccionado"><a href="streaming.html">Streaming</a></li>
+                <li class="head__enlace"><a href="diseño.html">Edición</a></li>
+                <li class="head__enlace"><a href="index.html#curso">Aprendé</a></li>
+                <li class="head__enlace"><a href="index.html#contacto">Contactanos</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <br><br><br>
-        <h3> PC Streaming </h3>
-        <p>Las mejores pc para diseñar... (Descripción, agregar texto)</p>
-        <ul>
-            <li>Gama baja (90.000$ - 130.000$)
-                <ul>
-                    <li>Placas madre:
-                        <ul>
-                            <li>Motherboard Asus TUF GAMING B560-PLUS WIFI</li>
-                        </ul>
-                    </li>
-                    <li>Procesadores:
-                        <ul>
-                            <li>Procesador Intel Core i5-11600</li>
-                        </ul>
-                    </li>
-                    <li>Placa de Video:
-                        <ul>
-                            <li>Zotac Gaming GeForce RTX 3060 AMP White Edition 12GB GDDR6</li>
-                        </ul>
-                    </li>
 
-                    <li>Memorias Ram:
-                        <ul>
-                            <li>Corsair Vengeance LPX 3200 16 GB</li>
-                        </ul>
-                    </li>
+    <main class="presupuesto container">
+        <div class="presupuesto__titulo">
+            <i class="presupuesto__icono fa-solid fa-headset fa-2xl"></i>
+            <h2> PC Streaming </h2>
+            <p>Los mejores componenetes para armar tu pc y hacer transmisiones en vivo sin problemas.</p>
+        </div>
+        <section class="presupuesto__columnas">
+            <div class="presupuesto__gamas">
+                <h4>Gama baja</h4>
+                <p>(90.000$ - 130.000$)</p>
 
-                    <li>Almacenamiento:
-                        <ul>
-                            <li>Disco Solido SSD 240gb Kingston A400 2.5
-                                y HDD WD Blue 1TB </li>
-                        </ul>
-                    </li>
-
-                    <li>Fuentes:
-                        <ul>
-                            <li>Corsair RM750 750W</li>
-                        </ul>
-                    </li>
-
-                    <li>Gabinetes:
-                        <ul>
-                            <li>Tempest Phantom USB 3.0 con Ventana RGB Negra</li>
-                        </ul>
-                    </li>
+                <p class="presupuesto__componente">Placas madre:</p>
+                <ul class="componentes__lista">
+                    <li>Motherboard Asus TUF GAMING B560-PLUS WIFI</li>
                 </ul>
-            </li>
 
-            <li>Gama media (130.000$ - 180.000$)
-                <ul>
-                    <li>Placas madre:
-                        <ul>
-                            <li>Motherboard Asus TUF GAMING B550-PLUS</li>
-                        </ul>
-                    </li>
-
-                    <li>Procesadores:
-                        <ul>
-                            <li>Procesador AMD Ryzen 7 5800X</li>
-                        </ul>
-                    </li>
-
-                    <li>Placa de Video:
-                        <ul>
-                            <li>Zotac Gaming Geforce RTX 3070 Twin Edge OC LHR 8GB GDDR6</li>
-                        </ul>
-                    </li>
-
-                    <li>Memorias Ram:
-                        <ul>
-                            <li>Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair</li>
-                        </ul>
-                    </li>
-                    <li>Almacenamiento:
-                        <ul>
-                            <li>WD Blue SN550 SSD 1TB NVMe M.2 PCIe Gen 3</li>
-                        </ul>
-                    </li>
-                    <li>Fuentes:
-                        <ul>
-                            <li>Corsair RM750 750W</li>
-                        </ul>
-                    </li>
-
-                    <li>Refrigeración:
-                        <ul>
-                            <li>Be Quiet! Pure Rock</li>
-                        </ul>
-                    </li>
-
-                    <li>Gabinetes:
-                        <ul>
-                            <li>Corsair Carbide 270R (sin ventana)</li>
-                        </ul>
-                    </li>
+                <p class="presupuesto__componente">Procesadores:</p>
+                <ul class="componentes__lista">
+                    <li>Procesador Intel Core i5-11600</li>
                 </ul>
-            </li>
-            <li>Gama alta (180.000$ - 250.000$)
-                <ul>
-                    <li>Placas madre:
-                        <ul>
-                            <li>Motherboard Gigabyte X570 Aorus Master</li>
-                        </ul>
-                    </li>
-                    <li>Procesadores:
-                        <ul>
-                            <li>Micro Procesador AMD Ryzen 9 5950X</li>
-                        </ul>
-                    </li>
-                    <li>Placa de video:
-                        <ul>
-                            <li>Gigabyte GeForce RTX 3080 Ti GAMING OC 12GB GDDR6X</li>
-                        </ul>
-                    </li>
-                    <li>Memorias Ram:
-                        <ul>
-                            <li>Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair</li>
-                        </ul>
-                    </li>
-                    <li>Almacenamiento:
-                        <ul>
-                            <li>Samsung 980 Pro SSD 1TB PCIe4 NVMe M.2</li>
-                        </ul>
-                    </li>
-                    <li>Fuente:
-                        <ul>
-                            <li>Corsair RM850 850W</li>
-                        </ul>
-                    </li>
-                    <li>Refrigeración:
-                        <ul>
-                            <li>Corsair Hydro Series 115i RGB Platinum</li>
-                        </ul>
-                    </li>
-                    <li>Gabinetes:
-                        <ul>
-                            <li>Corsair ICUE 4000X RGB Cristal Templado</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
 
+                <p class="presupuesto__componente">Placa de Video:</p>
+                <ul class="componentes__lista">
+                    <li>Zotac Gaming GeForce RTX 3060 AMP White Edition 12GB GDDR6</li>
+                </ul>
+
+                <p class="presupuesto__componente">Memorias Ram:</p>
+                <ul class="componentes__lista">
+                    <li>Corsair Vengeance LPX 3200 16 GB</li>
+                </ul>
+
+                <p class="presupuesto__componente">Almacenamiento:</p>
+                <ul class="componentes__lista">
+                    <li>Disco Solido SSD 240gb Kingston A400 2.5</li>
+                    <li>HDD WD Blue 1TB</li>
+                </ul>
+
+                <p class="presupuesto__componente">Fuentes:</p>
+                <ul class="componentes__lista">
+                    <li>Corsair RM750 750W</li>
+                </ul>
+
+                <p class="presupuesto__componente">Gabinetes:</p>
+                <ul class="componentes__lista">
+                    <li>Tempest Phantom USB 3.0 con Ventana RGB Negra</li>
+                </ul>
+            </div>
+
+            <div class="presupuesto__gamas">
+                <h4>Gama media</h4>
+                <p>(130.000$ - 180.000$)</p>
+
+                <p class="presupuesto__componente">Placas madre:</p>
+                <ul class="componentes__lista">
+                    <li>Motherboard Asus TUF GAMING B550-PLUS</li>
+                </ul>
+
+                <p class="presupuesto__componente">Procesadores:</p>
+                <ul class="componentes__lista">
+                    <li>Procesador AMD Ryzen 7 5800X</li>
+                </ul>
+
+                <p class="presupuesto__componente">Placa de Video:</p>
+                <ul class="componentes__lista">
+                    <li>Zotac Gaming Geforce RTX 3070 Twin Edge OC LHR 8GB GDDR6</li>
+                </ul>
+
+                <p class="presupuesto__componente">Memorias Ram:</p>
+                <ul class="componentes__lista">
+                    <li>Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair</li>
+                </ul>
+
+                <p class="presupuesto__componente">Almacenamiento:</p>
+                <ul class="componentes__lista">
+                    <li>WD Blue SN550 SSD 1TB NVMe M.2 PCIe Gen 3</li>
+                </ul>
+
+                <p class="presupuesto__componente">Fuentes:</p>
+                <ul class="componentes__lista">
+                    <li>Corsair RM750 750W</li>
+                </ul>
+
+                <p class="presupuesto__componente">Refrigeración:</p>
+                <ul class="componentes__lista">
+                    <li>Be Quiet! Pure Rock</li>
+                </ul>
+
+                <p class="presupuesto__componente">Gabinetes:</p>
+                <ul class="componentes__lista">
+                    <li>Corsair Carbide 270R (sin ventana)</li>
+                </ul>
+            </div>
+
+            <div class="presupuesto__gamas">
+                <h4>Gama alta</h4>
+                <p>(180.000$ - 250.000$)</p>
+
+                <p class="presupuesto__componente">Placas Madre:</p>
+                <ul class="componentes__lista">
+                    <li>Motherboard Gigabyte X570 Aorus Master</li>
+                </ul>
+
+                <p class="presupuesto__componente">Procesadores:</p>
+                <ul class="componentes__lista">
+                    <li>Micro Procesador AMD Ryzen 9 5950X</li>
+                </ul>
+
+                <p class="presupuesto__componente">Placa de Video:</p>
+                <ul class="componentes__lista">
+                    <li>Gigabyte GeForce RTX 3080 Ti GAMING OC 12GB GDDR6X</li>
+                </ul>
+
+                <p class="presupuesto__componente">Memorias Ram:</p>
+                <ul class="componentes__lista">
+                    <li>Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair</li>
+                </ul>
+
+                <p class="presupuesto__componente">Almacenamiento:</p>
+                <ul class="componentes__lista">
+                    <li>Samsung 980 Pro SSD 1TB PCIe4 NVMe M.2</li>
+                </ul>
+
+                <p class="presupuesto__componente">Fuentes:
+                <ul class="componentes__lista">
+                    <li>Corsair RM850 850W</li>
+                </ul>
+
+                <p class="presupuesto__componente">Refrigeración:
+                <ul class="componentes__lista">
+                    <li>Corsair Hydro Series 115i RGB Platinum</li>
+                </ul>
+
+                <p class="presupuesto__componente">Gabinetes:</p>
+                <ul class="componentes__lista">
+                    <li>Corsair ICUE 4000X RGB Cristal Templado</li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer__box">
@@ -183,6 +185,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
