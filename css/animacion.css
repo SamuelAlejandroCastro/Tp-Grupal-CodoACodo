@@ -70,3 +70,17 @@
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+@media only screen and (max-width: 768px) {
+    .cardCompus{
+        justify-content: center;
+    }
+
+    .card {
+        
+        width: 100%;
+        
+    }
+
+    
+}
