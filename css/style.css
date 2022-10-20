@@ -305,3 +305,87 @@ form {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    
+    h1 {
+        font-size: 5.5vw;
+    }
+    
+    h2 {
+        font-size: 4vw;
+    }
+    
+    h3 {
+        font-size: 3vw;
+    }
+    
+    h4 {
+        font-size: 2.3vw;
+    }
+    
+    p {
+        font-size: 2vw;
+    }
+    
+    .head {
+        flex-direction: column;
+    }
+
+    .head__logo {
+        width: 40%;
+        
+    }
+
+    .head__navegacion {
+        display: none;
+    }
+
+    .hero {
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Imagenes/fondo-mobile.jpg);
+        padding-top: 2.5rem;
+    }
+
+    .hero__texto {
+        width: 70%;
+        text-align: center;
+    }
+
+    .boton {
+        display: inline;
+        font-size: 2.2vw;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .contacto__boxicono {
+        display: none;
+    }
+
+    .contato__boton {
+        display: inline;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__logo {
+        width: 30%;    
+    }
+
+    .footer p {
+        padding: 1rem;
+    }
+}
+
+
