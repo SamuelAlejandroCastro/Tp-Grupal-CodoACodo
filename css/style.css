@@ -47,7 +47,7 @@ p {
 
 .head__logo {
     width: 15%;
-    
+
 }
 
 .head__navegacion {
@@ -67,8 +67,8 @@ p {
 }
 
 .enlace__seleccionado {
-    background-color:#862F98;
-    color:#F34701;
+    background-color: #862F98;
+    color: #F34701;
     border-radius: 100px;
     padding: 0.5rem;
 }
@@ -90,11 +90,11 @@ p {
     margin-top: 5%;
 }
 
-.hero__texto > h1 {
+.hero__texto>h1 {
     margin-bottom: 2rem;
 }
 
-.hero__texto > p {
+.hero__texto>p {
     margin-bottom: 2rem;
 }
 
@@ -106,7 +106,7 @@ p {
     box-sizing: border-box;
     padding: 1rem 2rem;
     background-color: #F34701;
-    border-radius: 160px; 
+    border-radius: 160px;
 }
 
 .curso {
@@ -127,14 +127,14 @@ p {
 }
 
 .curso__icono {
-    color:#F34701;
+    color: #F34701;
     padding-bottom: 2rem;
 }
 
 .contacto {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
-    background: linear-gradient(160deg, rgba(134,47,152,1) 0%, rgba(24,12,50,1) 100%);
+    background: linear-gradient(160deg, rgba(134, 47, 152, 1) 0%, rgba(24, 12, 50, 1) 100%);
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -185,7 +185,7 @@ form {
     box-sizing: border-box;
     padding: 1rem 2rem;
     background-color: #F34701;
-    border-radius: 160px; 
+    border-radius: 160px;
     border: none;
     cursor: pointer;
 }
@@ -209,7 +209,7 @@ form {
 }
 
 .footer__logo {
-    width: 10%;    
+    width: 10%;
 }
 
 .head__gamas {
@@ -239,16 +239,16 @@ form {
 
 .presupuesto__icono {
     padding-bottom: 2rem;
-    color:#862F98;
+    color: #862F98;
 }
 
 .presupuesto__componente {
-    color:#F34701;
+    color: #F34701;
     text-transform: uppercase;
     padding-top: 1rem;
 }
 
-.componentes__lista > li {
+.componentes__lista>li {
     list-style-type: disc;
     margin-left: 1rem;
     font-size: 14px;
@@ -262,7 +262,7 @@ form {
 
     .head__logo {
         width: 25%;
-        
+
     }
 
     .hero {
@@ -301,39 +301,39 @@ form {
     }
 
     .footer__logo {
-        width: 20%;    
+        width: 20%;
     }
 }
 
-@media only screen and (max-width: 375px) {
-    
+@media only screen and (max-width: 480px) {
+
     h1 {
         font-size: 5.5vw;
     }
-    
+
     h2 {
         font-size: 4vw;
     }
-    
+
     h3 {
         font-size: 3vw;
     }
-    
+
     h4 {
         font-size: 2.3vw;
     }
-    
+
     p {
         font-size: 2vw;
     }
-    
+
     .head {
         flex-direction: column;
     }
 
     .head__logo {
         width: 40%;
-        
+
     }
 
     .head__navegacion {
@@ -380,12 +380,10 @@ form {
     }
 
     .footer__logo {
-        width: 30%;    
+        width: 30%;
     }
 
     .footer p {
         padding: 1rem;
     }
 }
-
-
