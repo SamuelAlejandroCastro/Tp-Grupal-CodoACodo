@@ -11,7 +11,7 @@ function productosApi() {
         .then(data => { 
 			
 			let productos = data
-			let output = "<h3><center>Listado de Productos</center></h3>"
+			let output = ""
         	output = getProductos(productos, output)
             document.getElementById('output').innerHTML = output
         })
@@ -21,13 +21,13 @@ function getProductos (productos, output) {
 	
 	productos.forEach(function (lists) {
 		output += `
-				<div class="container">
-					<div class="card mt-4 bg-light">
+				<div class="productos__caja">
+					<div class="">
 						<ul class="list-group">
-						<li class="list-group-item"><h4>Producto: ${lists.title}</h4></li>
-						<li class="list-group-item"><h4>Descripcion: ${lists.description}</h4></li>
-						<li class="list-group-item"><h4>Precio: ${lists.price}$</h4></li>
-						<li class="list-group-item"><img src="${lists.images[0]}"></li>
+						<li class="list-group-item"><h4>Producto:</h4><p>${lists.title}</p></li>
+						<li class="list-group-item"><h4>Descripcion:</h4><p>${lists.description}</p></li>
+						<li class="list-group-item"><h4>Precio:</h4><p>$${lists.price}</p4></li>
+						<li class="list-group-item"><img class="productos__imagen" src="${lists.images[0]}"></li>
 						</ul>
 					</div>
 				</div> `

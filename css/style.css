@@ -190,6 +190,38 @@ form {
     cursor: pointer;
 }
 
+.api {
+    padding-bottom: 2rem;
+}
+.btn {
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    background-color: #F34701;
+    border-radius: 160px;
+    border: none;
+    cursor: pointer;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.productos__caja {
+    width: 48%;
+    padding-bottom: 1rem;
+}
+
+.productos__imagen {
+    width: 100%;
+}
+
 .footer__box {
     background: #F34701;
 }
