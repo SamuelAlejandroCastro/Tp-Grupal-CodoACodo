@@ -17,7 +17,8 @@
     <!--link al css  -->
     <link rel="stylesheet" href="css/animacion.css">
     <!--link al css animacion -->
-    <link rel="icon" href="Imagenes/favicon.ico"> <!-- logo de la pagina -->
+    <link rel="icon" href="Imagenes/favicon.ico"> 
+    <!-- logo de la pagina -->
 
 </head>
 
@@ -136,11 +137,11 @@
         <section class="seccionContacto container" id="contacto">
             <h2>¿Tenés dudas? Contactanos</h2>
             <div class="contacto">
-                <form>
-                    <input type="text" class="input" placeholder="Nombre y Apellido">
-                    <input type="email" class="input" placeholder="Email">
-                    <textarea type="text" class="input textarea" placeholder="Mensaje"></textarea>
-                    <input type="submit" class="contato__boton">
+                <form action="" name="formulario" method="get">
+                    <input type="text" class="input" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                    <input type="email" class="input" name="email" id="email" placeholder="Email">
+                    <textarea type="text" class="input textarea" name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                    <input type="submit" class="contato__boton" id="b1" name="btn">
                 </form>
                 <div class="contacto__boxicono">
                     <i class="contacto__icono fa-solid fa-paper-plane"></i>
@@ -159,6 +160,9 @@
             </div>
         </div>
     </footer>
+
+<script src="js/validacion.js"></script> 
+
 </body>
 
 </html>
